@@ -10,9 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var navigationBar: UINavigationBar!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        navigationBar.setTitleVerticalPositionAdjustment(10, for: UIBarMetrics.default)
     }
 
     override func didReceiveMemoryWarning() {
