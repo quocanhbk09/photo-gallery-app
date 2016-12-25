@@ -47,6 +47,14 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             let isSelected = !selectedCell.closeButton!.isHidden
             selectedCell.closeButton!.isHidden = isSelected
             selectedCell.overlayView!.isHidden = isSelected
+        } else {
+            let selectPhotoAlert = UIAlertController(title: "Choose your photo", message: nil, preferredStyle: .actionSheet)
+            selectPhotoAlert.addAction(UIAlertAction(title: "Choose photo from gallery", style: .default, handler: nil))
+            selectPhotoAlert.addAction(UIAlertAction(title: "Camera", style: .default, handler: nil))
+            
+            selectPhotoAlert.addAction(UIAlertAction(title: "Cancel", style: .cancel))
+            
+            self.present(selectPhotoAlert, animated: true)
         }
     }
     
