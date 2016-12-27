@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		66667B5C1E0FC33D006E68A3 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66667B5B1E0FC33D006E68A3 /* PhotoCollectionViewCell.swift */; };
 		66667B5E1E1001F1006E68A3 /* AddPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66667B5D1E1001F1006E68A3 /* AddPhotoCollectionViewCell.swift */; };
-		66667B601E1026A7006E68A3 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66667B5F1E1026A7006E68A3 /* SettingViewController.swift */; };
+		66667B641E12A8D2006E68A3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66667B631E12A8D2006E68A3 /* TableViewController.swift */; };
+		66667B661E12C701006E68A3 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66667B651E12C701006E68A3 /* SettingTableViewController.swift */; };
 		666FB7971E0C20D500E5C27E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666FB7961E0C20D500E5C27E /* AppDelegate.swift */; };
 		666FB7991E0C20D500E5C27E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666FB7981E0C20D500E5C27E /* ViewController.swift */; };
 		666FB79C1E0C20D500E5C27E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666FB79A1E0C20D500E5C27E /* Main.storyboard */; };
@@ -20,7 +21,8 @@
 /* Begin PBXFileReference section */
 		66667B5B1E0FC33D006E68A3 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		66667B5D1E1001F1006E68A3 /* AddPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
-		66667B5F1E1026A7006E68A3 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		66667B631E12A8D2006E68A3 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		66667B651E12C701006E68A3 /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		666FB7931E0C20D500E5C27E /* Photo Gallery App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Gallery App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		666FB7961E0C20D500E5C27E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		666FB7981E0C20D500E5C27E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,9 +64,10 @@
 			children = (
 				666FB7961E0C20D500E5C27E /* AppDelegate.swift */,
 				666FB7981E0C20D500E5C27E /* ViewController.swift */,
-				66667B5F1E1026A7006E68A3 /* SettingViewController.swift */,
 				66667B5B1E0FC33D006E68A3 /* PhotoCollectionViewCell.swift */,
+				66667B651E12C701006E68A3 /* SettingTableViewController.swift */,
 				666FB79A1E0C20D500E5C27E /* Main.storyboard */,
+				66667B631E12A8D2006E68A3 /* TableViewController.swift */,
 				666FB79D1E0C20D500E5C27E /* Assets.xcassets */,
 				666FB79F1E0C20D500E5C27E /* LaunchScreen.storyboard */,
 				666FB7A21E0C20D500E5C27E /* Info.plist */,
@@ -146,7 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66667B601E1026A7006E68A3 /* SettingViewController.swift in Sources */,
+				66667B661E12C701006E68A3 /* SettingTableViewController.swift in Sources */,
+				66667B641E12A8D2006E68A3 /* TableViewController.swift in Sources */,
 				666FB7991E0C20D500E5C27E /* ViewController.swift in Sources */,
 				666FB7971E0C20D500E5C27E /* AppDelegate.swift in Sources */,
 				66667B5E1E1001F1006E68A3 /* AddPhotoCollectionViewCell.swift in Sources */,

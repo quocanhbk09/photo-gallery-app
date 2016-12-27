@@ -14,12 +14,11 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     @IBOutlet weak var photoCollectionView: UICollectionView!
     
-    let photos = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", ]
+    let photos = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
     }
 
     override func didReceiveMemoryWarning() {
