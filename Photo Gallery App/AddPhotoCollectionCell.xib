@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AddCell" id="w1y-VR-F2A" customClass="AddPhotoCollectionViewCell" customModule="Photo_Gallery_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="104" height="104"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="104" height="104"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add-button-icon" translatesAutoresizingMaskIntoConstraints="NO" id="Jqo-fG-c8Y">
+                        <rect key="frame" x="0.0" y="0.0" width="104" height="104"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Jqo-fG-c8Y" firstAttribute="top" secondItem="w1y-VR-F2A" secondAttribute="top" id="hiR-FF-MW5"/>
+                <constraint firstItem="Jqo-fG-c8Y" firstAttribute="leading" secondItem="w1y-VR-F2A" secondAttribute="leading" id="pS4-aA-zj0"/>
+                <constraint firstAttribute="bottom" secondItem="Jqo-fG-c8Y" secondAttribute="bottom" id="pgZ-ht-5F7"/>
+                <constraint firstAttribute="trailing" secondItem="Jqo-fG-c8Y" secondAttribute="trailing" id="tDV-yS-wvy"/>
+            </constraints>
+            <size key="customSize" width="104" height="104"/>
+            <point key="canvasLocation" x="75" y="0.0"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="add-button-icon" width="35" height="33"/>
+    </resources>
+</document>
